@@ -33,3 +33,22 @@ To https://github.com/thicien/git-cafe-exercise.git
  * [new branch]      bug/fix -> bug/fix
 PS C:\git-exercise\git-cafe-exercise>
 ```
+### Exercise-3
+
+```bash
+PS C:\git-exercise\git-cafe-exercise> git add .
+PS C:\git-exercise\git-cafe-exercise> git commit -m "number changed"
+[bug/fix 94d1ff7] number changed
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\git-exercise\git-cafe-exercise> git push origin bug/fix
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/thicien/git-cafe-exercise.git
+   78fab7e..94d1ff7  bug/fix -> bug/fix
+PS C:\git-exercise\git-cafe-exercise> 
+```
